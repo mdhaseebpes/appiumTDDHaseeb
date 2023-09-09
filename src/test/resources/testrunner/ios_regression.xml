@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+    <listeners>
+        <listener class-name="com.mobile.listeners.TestListener" />
+        <listener class-name="com.mobile.listeners.ExtentReportListener" />
+    </listeners>
+
+    <test name="iPhone 14">
+        <parameter name="platformName" value="ios"/>
+        <parameter name="platformVersion" value="16.4"/>
+        <parameter name="udid" value="5253B513-3935-4B71-87A2-1DCF9D4B38C3"/>
+        <!--<parameter name="deviceName" value="iPhone 16.4"/>
+        <parameter name="wdaLocalPort" value="10001"/>
+        <parameter name="webkitDebugProxyPort" value="11001"/>-->
+        <classes>
+            <class name="com.mobile.test.LoginTest"/>
+            <class name="com.mobile.test.HomePageTest"/>
+            <class name="com.mobile.test.ProductTest"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

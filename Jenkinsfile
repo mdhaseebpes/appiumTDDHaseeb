@@ -1,9 +1,7 @@
 pipeline{
     
   agent {
-        kubernetes {
-
-        }
+      
     }
     
     stages{

@@ -23,9 +23,9 @@
 
     <test name="IOS">
         <parameter name="platformName" value="ios"/>
-        <parameter name="platformVersion" value="16.4"/>
-        <parameter name="udid" value="5253B513-3935-4B71-87A2-1DCF9D4B38C3"/>
-  <!--      <parameter name="deviceName" value="iPhone 16.4"/>
+        <parameter name="platformVersion" value="14.5"/>
+        <parameter name="udid" value="6B2C3067-5E47-43F8-9B53-B28AFB0C1C21"/>
+      <!--  <parameter name="deviceName" value="iPhone 14.5"/>
         <parameter name="wdaLocalPort" value="10001"/>
         <parameter name="webkitDebugProxyPort" value="11001"/>-->
         <classes>

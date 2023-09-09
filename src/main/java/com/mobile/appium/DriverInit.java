@@ -60,7 +60,7 @@ public class DriverInit {
                     //dc.setCapability("systemPort", systemPort);
                    // dc.setCapability("chromeDriverPort", chromeDriverPort);
 
-                    String androidUrl = FileLocations.APP_DIRECTORY + File.separator + "android" + File.separator + "Android.SauceLabs.Mobile.Sample.app.2.2.1.apk";
+                    String androidUrl = FileLocations.APP_DIRECTORY + File.separator + "android" + File.separator + "AndroidSauceLabs.apk";
                     dc.setCapability(MobileCapabilityType.APP, androidUrl);
                     // dc.setCapability("appPackage",prop.getProperty("appPackage"));
                     //  dc.setCapability("appActivity",prop.getProperty("appActivity"));
